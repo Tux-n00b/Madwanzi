@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madwanzi CTF Blog | Cybersecurity Insights</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <!--<link rel="stylesheet" href="../css/style.css">--> 
+    <link rel="stylesheet" href="/index.html/index.css">
+</head>
+<body class="blog-page">
+    <!-- Navigation (consistent with main site) -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="../index.html" class="logo">
+                <span class="logo-icon"><i class="fas fa-shield-alt"></i></span>
+                <span>Madwanzi</span>
+            </a>
+            <div class="nav-links">
+                <a href="../index.html">Home</a>
+                <a href="../index.html#ctf">CTF</a>
+                <a href="../index.html#team">Team</a>
+                <!--<a href="/create.html/create.html" class="active">Upload</a>-->
+                <a href="../index.html#contact">Contact</a>
+            </div>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Blog Header -->
+    <header class="blog-header">
+        <div class="container">
+            <h1>Madwanzi CTF Blog</h1>
+            <p>Cybersecurity insights, CTF writeups, and technical deep dives</p>
+            <div class="blog-categories">
+                <a href="#" class="category-tag active">All Posts</a>
+<!--                <a href="#" class="category-tag">CTF Writeups</a>
+                <a href="#" class="category-tag">Tutorials</a>
+                <a href="#" class="category-tag">Security News</a>
+                -->
+            </div>
+        </div>
+    </header>
+
+    <!-- Blog Posts Grid -->
+    <main class="blog-posts container">
+        <article class="blog-card">
+            <div class="blog-card-image">
+                <img src="../images/blog/ctf-writeup-1.jpg" alt="CTF Writeup">
+                <span class="post-category">CTF Writeup</span>
+            </div>
+            <div class="blog-card-content">
+                <div class="post-meta">
+                    <span class="post-date">June 15, 2023</span>
+                    <span class="read-time">8 min read</span>
+                </div>
+                <h2><a href="post-template/bsides-ctf.html">BSides CTF 2023: Crypto Challenge Breakdown</a></h2>
+                <p>Detailed walkthrough of the winning solution for the RSA-based cryptography challenge at BSides CTF 2023.</p>
+                <div class="post-footer">
+                    <a href="#" class="author-link">
+                        <img src="../images/team-member1.jpg" alt="Alex Carter" class="author-avatar">
+                        <span>Alex Carter</span>
+                    </a>
+                    <a href="post-template/bsides-ctf.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </article>
+
+        <article class="blog-card">
+            <div class="blog-card-image">
+                <img src="../images/blog/web-security.jpg" alt="Web Security">
+                <span class="post-category">Tutorial</span>
+            </div>
+            <div class="blog-card-content">
+                <div class="post-meta">
+                    <span class="post-date">June 8, 2023</span>
+                    <span class="read-time">12 min read</span>
+                </div>
+                <h2><a href="post-template/jwt-security.html">Advanced JWT Security: Beyond the Basics</a></h2>
+                <p>Exploring lesser-known JWT vulnerabilities and how to properly secure your web applications against them.</p>
+                <div class="post-footer">
+                    <a href="#" class="author-link">
+                        <img src="../images/team-member2.jpg" alt="Samira Khan" class="author-avatar">
+                        <span>Samira Khan</span>
+                    </a>
+                    <a href="post-template/jwt-security.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </article>
+
+        <article class="blog-card">
+            <div class="blog-card-image">
+                <img src="../images/blog/linux-security.jpg" alt="Linux Security">
+                <span class="post-category">Tutorial</span>
+            </div>
+            <div class="blog-card-content">
+                <div class="post-meta">
+                    <span class="post-date">May 28, 2023</span>
+                    <span class="read-time">10 min read</span>
+                </div>
+                <h2><a href="post-template/linux-hardening.html">Linux Server Hardening for CTF Challenges</a></h2>
+                <p>Essential security measures to protect your Linux servers from common CTF attack vectors.</p>
+                <div class="post-footer">
+                    <a href="#" class="author-link">
+                        <img src="../images/team-member3.jpg" alt="Jordan Lee" class="author-avatar">
+                        <span>Jordan Lee</span>
+                    </a>
+                    <a href="post-template/linux-hardening.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <!-- Pagination -->
+    <div class="pagination container">
+        <a href="#" class="page-nav disabled"><i class="fas fa-chevron-left"></i> Previous</a>
+        <div class="page-numbers">
+            <a href="#" class="active">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <span>...</span>
+            <a href="#">8</a>
+        </div>
+        <a href="#" class="page-nav">Next <i class="fas fa-chevron-right"></i></a>
+    </div>
+
+    <!-- Newsletter Subscription -->
+    <section class="newsletter">
+        <div class="container">
+            <h3>Get CTF Tips & Blog Updates</h3>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer (consistent with main site) -->
+    <footer class="footer">
+        <!-- Same footer as your main index.html -->
+    </footer>
+
+    <script src="../js/blog.js"></script>
+</body>
+</html>
